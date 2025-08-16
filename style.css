@@ -1,0 +1,149 @@
+ /* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1, h2, h3 {
+color: dark grey;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#navbar {
+  background-color: #0077b6;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar nav a {
+  margin: 0 10px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+#navbar nav a.active,
+#navbar nav a:hover {
+  background-color: #00b4d8;
+}
+
+#hero {
+  background: url('https://source.unsplash.com/1600x600/?library,books') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 120px 10px;
+}
+
+#hero button {
+  padding: 10px 20px;
+  background-color: #00b4d8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#hero button:hover {
+  background-color: #0077b6;
+}
+
+#about, #books-section, #contact-form {
+  padding: 20px;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+form button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #00b4d8;
+}
+
+footer {
+  text-align: center;
+  background: #001d3d;
+  color: white;
+  padding: 15px 10px;
+  margin-top: 20px;
+}
+
+/* Styling General and Form Sections */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+#navbar nav a {
+  margin: 0 10px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+#navbar nav a.active,
+#navbar nav a:hover {
+  background-color: #00b4d8;
+}
+
+/* Form Styling */
+#register-form, #login-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input, form select, form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+form button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #00b4d8;
+}

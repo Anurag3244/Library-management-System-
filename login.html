@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="navbar">
+    <h1>Library Management System</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="login.html" class="active">Login</a>
+    </nav>
+</div>
+
+<section id="login-form">
+    <h2>Login</h2>
+    <form action="login" method="POST">
+        <label for="login-username">Username:</label>
+        <input type="text" id="login-username" name="username" placeholder="Enter your username" required>
+
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" name="password" placeholder="Enter your password" required>
+
+        <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+</section>
+
+<!-- Removed the script.js include since we're handling form submission server-side -->
+</body>
+</html>

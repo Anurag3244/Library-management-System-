@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="navbar">
+    <h1>Library Management System</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="register.html" class="active">Register</a>
+        <a href="login.html">Login</a>
+    </nav>
+</div>
+
+<section id="register-form">
+    <h2>Create an Account</h2>
+    <form onsubmit="handleRegister(event)">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter a username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter a password" required>
+
+        <label for="role">Select Role:</label>
+        <select id="role" required>
+            <option value="Admin">Admin</option>
+            <option value="Librarian">Librarian</option>
+            <option value="Member">Member</option>
+        </select>
+
+        <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Log in here</a>.</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
