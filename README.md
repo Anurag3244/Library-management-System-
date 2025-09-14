@@ -120,3 +120,29 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ## Project Structure
 
+LibraryManagementSystem/
+├── lib/
+│   └── mysql-connector-j-8.0.32.jar
+├── src/
+│   ├── com/
+│   │   └── library/
+│   │       ├── LoginServlet.java
+│   │       └── RegisterServlet.java
+│   ├── Book.java
+│   ├── BookSearch.java
+│   ├── Borrowing.java
+│   ├── LibrarySystem.java
+│   ├── Member.java
+│   ├── Reports.java
+│   └── User.java
+├── web/
+│   ├── books.html
+│   ├── contact.html
+│   ├── index.html
+│   ├── login.html
+│   ├── register.html
+│   ├── script.js
+│   ├── styles.css
+│   └── WEB-INF/
+│       └── web.xml
+└── .gitignore
