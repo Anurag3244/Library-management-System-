@@ -42,8 +42,8 @@ This is a comprehensive Library Management System (LMS) designed to handle the e
 
 | Feature         | Screenshot                               |
 | --------------- | -------------------------------------    |
-| Login Screen    | ![Login](login.png)                      |
-| Register        | ![Register](Register.png)                |
+| Login Screen    | ![Login](LoginLms.png)                      |
+| Register        | ![Register](RegisterLms.png)                |
 | Failed Withdraw | ![FailedWithdraw](FailedTransaction.png) |
 | Operations      | ![Operations](Options.png)               |
 | Statements      | ![Statement](MiniStatement.png)          |
