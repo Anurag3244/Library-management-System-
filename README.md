@@ -34,7 +34,21 @@ This is a comprehensive Library Management System (LMS) designed to handle the e
     * Javax Servlet API
     * Gson
  
-## Screenshots
+---
+
+## 📸 Screenshots
+
+(Add screenshots of login screen, balance enquiry, withdrawal, etc.)
+
+| Feature         | Screenshot                               |
+| --------------- | -------------------------------------    |
+| Login Screen    | ![Login](login.png)                      |
+| Register        | ![Register](Register.png)                |
+| Failed Withdraw | ![FailedWithdraw](FailedTransaction.png) |
+| Operations      | ![Operations](Options.png)               |
+| Statements      | ![Statement](MiniStatement.png)          |
+
+---
 
 
 ## Getting Started
